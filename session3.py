@@ -139,16 +139,16 @@ numbers = [1,2,3,4,5,6,7,8]
 # del numbers[2]
 # print(numbers)
 
-numbers1 = [1,2,3,4]
-numbers2 = [4,5,6,7]
+# numbers1 = [1,2,3,4]
+# numbers2 = [4,5,6,7]
 
-result = numbers1 + numbers2
-print(result)
+# result = numbers1 + numbers2
+# print(result)
 
 # numbers1.extend(numbers2)
 # print(numbers1)
-numbers1.append(numbers2)
-print(numbers1)
+# numbers1.append(numbers2)
+# print(numbers1)
 
 
 
