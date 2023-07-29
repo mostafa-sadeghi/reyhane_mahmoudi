@@ -7,6 +7,7 @@ import argparse
 def create_password(length=8, upper=False, lower=False, digit=False, pun=False):
     pool = ''
     if upper:
+        print("create_password", upper)
         pool += string.ascii_uppercase  # pool = pool + string.ascii_uppercase
     if lower:
         pool += string.ascii_lowercase
@@ -29,5 +30,7 @@ def create_password(length=8, upper=False, lower=False, digit=False, pun=False):
 
 parser = argparse.ArgumentParser(description="Password creator")
 parser.add_argument('length', type=int, help="Length of password")
-
+parser.add_argument('-u', '--upper', help="user upper case", action='store_true')
 args = parser.parse_args()
+print(args)
+print(create_password(args.length, args.upper))
