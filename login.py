@@ -1,3 +1,4 @@
 username = ""
-if username == "root":
+password = ""
+if username == "root" and password == "123":
     pass
