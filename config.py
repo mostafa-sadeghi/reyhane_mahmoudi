@@ -1,12 +1,4 @@
-GAME_CHOICES = ("r", "p", "s")
+API_KEY = '0d1601cae6d2b18ff5485dc4a00e2bf1'
+BASE_PATH = 'http://data.fixer.io/api/latest?access_key='
 
-RULES = {
-    ('p', 'r'): 'p',
-    ('p', 's'): 's',
-    ('r', 's'): 'r'
-}
-
-score_board = {
-    'user': 0,
-    'system': 0
-}
+url = BASE_PATH+API_KEY
